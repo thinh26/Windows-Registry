@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\Applicability]
+"BranchName"="ReleasePreview"
+"ContentType"="Mainline"
+"Ring"="External"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\UI\Selection]
+"UIBranch"="ReleasePreview"
+"UIContentType"="Mainline"
+"UIRing"="External"

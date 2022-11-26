@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16]
+@="PowerDesigner 16 data movement model"
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16\DefaultIcon]
+@="C:\\Program Files\\SAP\\PowerDesigner 16\\shdmm16.dll,0"
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16\Shell]
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16\Shell\Open]
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16\Shell\Open\Command]
+@="\"C:\\Program Files\\SAP\\PowerDesigner 16\\pdshell16.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16\Shell\Open\ddeexec]
+@="open(\"%1\")"
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16\Shell\Open\ddeexec\Application]
+@="pdshell16"
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16\Shell\Open\ddeexec\IfExec]
+@="[]"
+
+[HKEY_CLASSES_ROOT\PowerDesigner.DMM.16\Shell\Open\ddeexec\Topic]
+@="system"
+
